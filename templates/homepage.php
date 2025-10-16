@@ -14,6 +14,7 @@
   <?php require __DIR__ . '/Derniersajouts.php'; ?>
   <?php require __DIR__ . '/Fonctionnemen.php'; ?>
   <?php require __DIR__ . '/Nosvaleurs.php'; ?>
+  <?php require __DIR__ . '/Footer.php'; ?>
 
 </main>
 

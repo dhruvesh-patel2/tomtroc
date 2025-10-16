@@ -9,7 +9,7 @@
     <!-- INFO -->
     <nav class="nav-left">
       <a href="?action=home" class="active">Accueil</a>
-      <a href="?action=books" class="active">Nos livres à l’échange</a>
+      <a href="index.php?page=livres" class="active">Nos livres à l’échange</a>
     </nav>
 
     <!-- COMPTE -->

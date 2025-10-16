@@ -276,3 +276,105 @@ html, body {
   height: auto;
   display: block;
 }
+/*Nos valeurs*/
+.nos-valeurs {
+  background: #ffffff;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 91px;
+  padding-bottom: 120px;
+}
+
+.valeurs-bloc {
+  width: 462px;
+  min-height: 503px;
+  text-align: left;
+  position: relative;
+}
+
+.valeurs-bloc h2 {
+  font-size: 28px;
+  color: #111;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.valeurs-texte p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.valeurs-texte .signature {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+.valeurs-icone {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(70%); 
+}
+
+.valeurs-icone img {
+  width: 120px;
+  height: 102px;
+  object-fit: contain;
+  display: block;
+  border: none;
+}
+/* Footer*/
+.footer {
+  background: #ffffff;
+  padding: 25px 0;
+  margin-top: 120px; 
+  border-top: 1px solid #eee;
+  font-family: 'Inter', sans-serif;
+  margin-left: 55%;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-links li a:hover {
+  color: #12b76a;
+}
+
+
+.footer-logo {
+  margin-left: 35px;
+  margin-right: 55px;
+}
+
+.footer-logo img {
+  width: 28px;
+  height: auto;
+  display: block;
+}

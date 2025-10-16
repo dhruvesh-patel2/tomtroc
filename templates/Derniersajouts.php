@@ -40,8 +40,8 @@
     </div>
 
   </div>
-  
+
   <div class="btn-container">
-    <a href="#" class="btn-livres">Voir tous les livres</a>
+    <a href="index.php?page=livres" class="btn-livres">Voir tous les livres</a>
   </div>
 </section>

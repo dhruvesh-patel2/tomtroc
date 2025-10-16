@@ -19,15 +19,11 @@
       <p>Proposez un échange et discutez avec d’autres passionnés de lecture.</p>
     </div>
   </div>
-
   <div class="btn-container">
-    <a href="#" class="btn-fonction">Voir tous les livres</a>
+    <a href="index.php?page=livres" class="btn-livres">Voir tous les livres</a>
   </div>
 </section>
 
-<div class="btn-container">
-    <a href="#" class="btn-livres">Voir tous les livres</a>
-  </div>
 
   <div class="banniere">
     <img src="../public/images/banner1.PNG" alt="Bannière TomTroc">
