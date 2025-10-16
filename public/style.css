@@ -1,3 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+}
 .site-header {
     background: #f8f7f3;
     border-bottom: 1px solid #ddd;
@@ -134,6 +143,7 @@
   width: 200px;
   height: 324px;
   background: #fff;
+
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   transition: transform 0.2s ease;
@@ -188,4 +198,81 @@
 
 .btn-livres:hover {
   background-color: #0d8a50;
+}
+/*Fonctionnement*/
+.fonctionnement {
+  background: #f8f7f3;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  padding-top: 157px;
+  padding-bottom: 80px;
+}
+
+.fonctionnement h2 {
+  font-size: 28px;
+  color: #111;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.fonctionnement .intro {
+  font-size: 16px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto 95px auto;
+  line-height: 1.6;
+}
+
+.etapes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin-bottom: 80px;
+}
+
+.etape {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  width: 220px;
+  padding: 25px 18px;
+}
+
+.etape p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn-fonction {
+  display: inline-block;
+  padding: 12px 28px;
+  background: transparent;
+  border: 2px solid #12b76a;
+  color: #12b76a;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.2s ease;
+}
+
+.btn-fonction:hover {
+  background: #12b76a;
+  color: #fff;
+}
+.banniere {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.banniere img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
