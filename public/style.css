@@ -378,3 +378,85 @@ html, body {
   height: auto;
   display: block;
 }
+/* login */
+/* PAGE INSCRIPTION - PLEIN ÉCRAN */
+.login-page {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  min-height: calc(100vh - 80px); /* occupe tout sauf le header */
+  background-color: #f8f7f4;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+.form-left {
+  flex: 1;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-left h1 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.form-left form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-left input {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-submit {
+  background-color: #12b76a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0d9957;
+}
+
+.redirect {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.redirect a {
+  color: #0d9957;
+  text-decoration: underline;
+}
+
+/* IMAGE À DROITE SUR TOUTE LA HAUTEUR */
+.form-right {
+  flex: 1;
+  overflow: hidden;
+}
+
+.form-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

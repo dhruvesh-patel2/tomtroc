@@ -16,7 +16,8 @@
     <nav class="nav-right">
       <a href="?action=messages" class="messages">💬 Messagerie <span class="badge">0</span></a>
       <a href="?action=profile" class="compte">👤 Mon compte</a>
-      <a href="?action=login" class="connexion">Connexion</a>
+      <a href="index.php?page=login" class="connexion">Connexion</a>
+
     </nav>
   </div>
 </header>
