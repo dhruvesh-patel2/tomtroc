@@ -1,5 +1,7 @@
 <?php
 require_once __DIR__ . '/../src/Controller/Router.php';
+
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -16,4 +18,3 @@ $router->routeRequest();
 ?>
 </body>
 </html>
-

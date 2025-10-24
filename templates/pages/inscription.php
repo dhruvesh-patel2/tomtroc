@@ -8,6 +8,9 @@ require_once __DIR__ . '/../header.php';
             <h1>Inscription</h1>
 
             <form action="/inscription" method="post" class="form">
+                <label for="pseudo">Pseudo</label>
+                <input type="text" id="pseudo" name="pseudo" required>
+
                 <label for="email">Adresse email</label>
                 <input type="email" id="email" name="email" required>
 
@@ -17,8 +20,7 @@ require_once __DIR__ . '/../header.php';
                 <button type="submit" class="btn-submit">S’inscrire</button>
             </form>
 
-            <p class="redirect">Pas de compte ? <a href="?page=inscription">Inscrivez-vous</a></p>
-
+            <p class="redirect">Déjà inscrit ? <a href="?page=login">Connectez-vous</a></p>
         </div>
 
         <div class="form-right">
