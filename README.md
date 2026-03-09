@@ -24,7 +24,21 @@ Le projet met en avant la simplicité, la convivialité et le partage autour de 
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="24" style="vertical-align: middle;"/> **PHP**
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="24" style="vertical-align: middle;"/> **MySQL**
 ---
+---
 
+## Installation du projet
+
+1. **Cloner le dépôt :**
+
+```bash
+git clone https://github.com/dhruvesh-patel2/tomtroc.git
+2.	Configurer la base de données :
+
+	•	Créer une base de données MySQL
+	•	Importer les fichiers bdd.sql et fixture.sql
+	•	Renseigner les identifiants dans le fichier de configuration :database.example.php
+    
+3. Lancer le projet via un serveur local (MAMP, XAMPP, WAMP)
 
 ## Auteur
 
