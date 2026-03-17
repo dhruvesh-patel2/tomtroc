@@ -118,7 +118,7 @@
 
             <?php if (!empty($books)): ?>
                 <!-- cartes mobile -->
-                <div class="tt-account-cards" aria-label="Liste de vos livres">
+                <div class="tt-account-cards" role="region" aria-label="Liste de vos livres">
                     <!-- boucle livres -->
                     <?php foreach ($books as $book): ?>
                         <?php
