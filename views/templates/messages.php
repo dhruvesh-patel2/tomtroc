@@ -78,7 +78,7 @@
 
             <!-- saisie message -->
             <form class="tt-message-form" method="POST">
-                <input type="text" class="tt-message-input" name="message" placeholder="Tapez votre message ici" autocomplete="off" required>
+                    <input type="text" class="tt-message-input" id="message" aria-label="Message" name="message" placeholder="Tapez votre message ici" autocomplete="off" required>
                 <button type="submit" class="tt-message-submit">Envoyer</button>
             </form>
         <?php else: ?>

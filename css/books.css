@@ -382,3 +382,18 @@
         padding: 12px 14px;
     }
 }
+.tt-book-author {
+    color: #5A5A5A !important;
+  }
+  .tt-book-cta {
+    color: #ffffff!important;
+    background-color: #007A49 !important;
+  }
+  .tt-book-edit-submit {
+    color: #ffffff!important;
+    background-color: #007A49!important;
+  }
+  .tt-alert--success {
+    background-color: #1B5E20!important;
+    color: #ffffff!important;
+  }

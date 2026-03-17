@@ -272,3 +272,11 @@
         display: none;
     }
 }
+
+    .tt-bubble-meta {
+        color: #4A4A4A!important;
+    }
+    .tt-message-submit {
+        color: #ffffff;
+        background-color: #007A49!important;
+      }
