@@ -26,7 +26,7 @@ $isAvailable = !empty($book->availability);
 >
     <article class="tt-book-card">
         <?php if (!$isAvailable): ?>
-            <span class="tt-book-badge" aria-label="Livre non disponible">non dispo.</span>
+            <span class="tt-book-badge">Non disponible</span>
         <?php endif; ?>
         <img src="<?= htmlspecialchars($cover) ?>" alt="<?= htmlspecialchars($book->title) ?>">
         <?php if ($useInfoWrapper): ?>

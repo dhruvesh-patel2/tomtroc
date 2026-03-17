@@ -62,9 +62,9 @@
 </section>
 
 <!-- NOS VALEURS -->
-<section class="tt-banner">
+<div class="tt-banner">
     <img src="images/valeur.png" alt="Bibliothèque et livres">
-</section>
+</div>
 
 <section class="tt-values">
     <div class="tt-values-content">
