@@ -16,12 +16,13 @@
 
         <?php if (!empty($bookList ?? [])): ?>
             <!-- Grille de livres -->
-            <section class="tt-books-grid" data-books-grid>
+            <h2 class="tt-visually-hidden">Liste des livres disponibles</h2>
+            <div class="tt-books-grid" data-books-grid>
                 <?php $useInfoWrapper = true; ?>
                 <?php foreach ($bookList as $book): ?>
                     <?php require __DIR__ . '/../../services/book-card.php'; ?>
                 <?php endforeach; ?>
-            </section>
+            </div>
 
             <p class="tt-search-empty" hidden>Aucun livre ne correspond à votre recherche.</p>
         <?php else: ?>
